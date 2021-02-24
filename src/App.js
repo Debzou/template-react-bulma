@@ -1,9 +1,9 @@
 import {Component} from "react"
 // My own component
-import Home from './Home';
-import NavBar from './NavBar';
-import FooterPage from './FooterPage';
-import About from './About';
+import HomePage from './pages/HomePage';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import AboutPage from './pages/AboutPage';
 // Routing
 import {
   BrowserRouter as Router,
@@ -21,11 +21,11 @@ class App extends Component {
           <NavBar/>
           <Switch>
             {/* Routing */}
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/about" component={AboutPage} />
             <Route render={() => <Redirect to="/" />} />
           </Switch>
-          <FooterPage/>
+          <Footer/>
       </Router>  
     );
   }

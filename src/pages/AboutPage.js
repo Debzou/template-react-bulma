@@ -2,7 +2,7 @@ import {Section, Container, Heading} from 'react-bulma-components';
 import {Component} from "react"
 
 // About page
-class About extends Component {
+class AboutPage extends Component {
     render() {
         return (
             <Section>
@@ -15,4 +15,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default AboutPage;

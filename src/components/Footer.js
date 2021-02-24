@@ -1,16 +1,12 @@
-import {Hero,Footer,Container,Content} from 'react-bulma-components';
+import {Footer as F,Container,Content} from 'react-bulma-components';
 import React from 'react';
 import {Component} from "react"
 
 // Footer
-class FooterPage extends Component {
+class Footer extends Component {
   render() {
     return (
-    <Hero size="fullheight">
-      <Hero.Head renderAs="header" />
-      <Hero.Body />
-      <Hero.Footer>
-        <Footer>
+        <F>
           <Container>
             <Content style={{ textAlign: 'center' }}>
               <p className="colorwhite">
@@ -18,11 +14,10 @@ class FooterPage extends Component {
               </p>
             </Content>
           </Container>
-        </Footer>
-      </Hero.Footer>
-  </Hero>)
+        </F>
+      )
   }
 };
 
-export default FooterPage;
+export default Footer;
  

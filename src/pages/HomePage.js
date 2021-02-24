@@ -2,7 +2,7 @@ import {Component} from "react"
 import {Section, Container, Heading} from 'react-bulma-components';
 
 // Home
-class Home extends Component {
+class HomePage extends Component {
   render() {
     return (
       <Section>
@@ -14,4 +14,4 @@ class Home extends Component {
   } 
 }
 
-export default Home;
+export default HomePage;
