@@ -24,7 +24,7 @@ class NavBar extends Component {
     return (
       <Navbar active={this.state.active}>
         <Navbar.Brand>
-          <Navbar.Item renderAs="a" href="#">
+          <Navbar.Item renderAs="a" href="/">
             <img src="/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
           </Navbar.Item>
           <Navbar.Burger onClick={this.handleBurger} />
