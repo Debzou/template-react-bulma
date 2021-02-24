@@ -10,7 +10,7 @@ class AboutPage extends Component {
                     <Heading>About us</Heading>
                     <Heading subtitle> JE SUCE DES GROS CHIBRES </Heading>
                 </Container>
-        </Section>
+            </Section>
         );
     }
 }
