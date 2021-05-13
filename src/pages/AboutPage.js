@@ -8,7 +8,7 @@ class AboutPage extends Component {
             <Section>
                 <Container>
                     <Heading>About us</Heading>
-                    <Heading subtitle> JE SUCE DES GROS CHIBRES </Heading>
+                    <Heading subtitle> Ah </Heading>
                 </Container>
             </Section>
         );
